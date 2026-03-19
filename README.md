@@ -128,22 +128,22 @@ int main() {
 }
 ```
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
+<img width="919" height="530" alt="image" src="https://github.com/user-attachments/assets/8c8a0c9a-3b5a-497f-897a-ad3161905932" />
 
 ## RESULT:
-Thus the program has been executed by using CUDA to ________________.
+Thus the program has been executed by using CUDA to perform Sobel edge detection on an image using GPU parallel processing
+1. What challenges did you face while implementing the Sobel filter for color images?
+Color images contain three channels (RGB), which makes processing more complex. To simplify the implementation, the image was converted into grayscale before applying the Sobel filter.
 
-Questions:
+2. How did changing the block size influence the performance of your CUDA implementation?
+Changing the block size affects GPU thread utilization. A 16×16 block size provided better parallel execution and improved performance compared to smaller block sizes.
 
-What challenges did you face while implementing the Sobel filter for color images?
-How did changing the block size influence the performance of your CUDA implementation?
-What were the differences in output between the CUDA and CPU implementations? Discuss any discrepancies.
-Suggest potential optimizations for improving the performance of the Sobel filter.
+3. What were the differences in output between the CUDA and CPU implementations?
+Both CUDA and CPU implementations produced similar edge detection results. Minor differences occurred due to floating-point precision and parallel processing in GPU computation.
 
-Deliverables:
+4. Suggest potential optimizations for improving the performance of the Sobel filter.
+Performance can be improved by using shared memory, optimizing memory access patterns, and reducing CPU–GPU data transfers
 
-Modified CUDA code with comments explaining your changes.
-A report summarizing your findings, including graphs of execution times and a comparison of outputs.
-Answers to the questions posed in the experiment.
+
 Tools Required:
 
