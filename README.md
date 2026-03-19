@@ -1,9 +1,8 @@
 # Exp3-Sobel-edge-detection-filter-using-CUDA-to-enhance-the-performance-of-image-processing-tasks.
-<h3>AIM:</h3>
-<h3>ENTER YOUR NAME</h3>
-<h3>ENTER YOUR REGISTER NO</h3>
-<h3>EX. NO</h3>
-<h3>DATE</h3>
+## ENTER YOUR NAME:YOKESH H
+<h3>ENTER YOUR REGISTER NO</h3>212224230312
+<h3>EX. NO</h3>03
+<h3>DATE</h3>19:03:2026
 <h1> <align=center> Sobel edge detection filter using CUDA </h3>
   Implement Sobel edge detection filtern using GPU.</h3>
 Experiment Details:
@@ -145,5 +144,5 @@ Both CUDA and CPU implementations produced similar edge detection results. Minor
 Performance can be improved by using shared memory, optimizing memory access patterns, and reducing CPU–GPU data transfers
 
 
-Tools Required:
+
 
